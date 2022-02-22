@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,7 +11,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
       
     public function __construct()
     {
-        $this->id = substr(md5(rand()), 0, 3); // getting random id with length of 3 symbols
+        $this->id = substr(md5(rand()), 0, 3);
         $this->milk = mt_rand(8, 12);
     }
   }
@@ -24,7 +21,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
       
     public function __construct()
     {
-        $this->id = substr(md5(rand()), 0, 3); // getting random id with length of 3 symbols
+        $this->id = substr(md5(rand()), 0, 3);
         $this->eggs = mt_rand(0, 1);
     }
   }
